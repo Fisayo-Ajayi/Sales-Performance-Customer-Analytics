@@ -10,12 +10,14 @@ I approached this as an end-to-end analytics workflow—starting with SQL-based 
 The goal was not just to analyze the data, but to uncover patterns that could realistically support business decisions around revenue growth, customer retention, and product strategy.
 
 
+
 **Tools & Technologies**
 
 MySQL – Initial querying and relational analysis
 SQLite – Data cleaning and transformation
 Microsoft Power BI – Data modeling, DAX, and visualization
 SQL – Joins, aggregations, and analytical queries
+
 
 
 **About the Dataset**
@@ -29,6 +31,7 @@ Order-level details (quantity and item pricing)
 Customer segmentation using RFM (Recency, Frequency, Monetary)
 
 It reflects realistic behavior such as repeat purchases, varying customer value, and differences in product performance.
+
 
 
 **How the Analysis Was Done**
@@ -53,6 +56,7 @@ Measures (like revenue and customer value) were calculated
 Insights were visualized in a clear and interactive way
 
 
+
 **Dashboard Overview**
 
 🔹 Sales Performance Overview
@@ -67,12 +71,14 @@ Top Products by Revenue
 Customer Retention (Repeat vs One-time)
 
 
+
 **Dashboard Preview**
 
 **Full Dashboard Report**
 
 You can view the full dashboard here:
 👉 reports/ecommerce_dashboard.pdf
+
 
 
 **Key Insights**
@@ -93,6 +99,7 @@ ecommerce-sales-analytics/
 └── README.md
 
 
+
 **Why This Project Matters**
 
 This project demonstrates how data can move beyond numbers and into decisions.
@@ -103,6 +110,7 @@ Understand customer behavior
 Identify revenue drivers
 Highlight risks like churn
 Translate data into meaningful insights
+
 
 
 **Author**
