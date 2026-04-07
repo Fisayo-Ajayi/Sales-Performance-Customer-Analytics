@@ -1,8 +1,6 @@
 **E-commerce Sales, Customer Retention & Product Performance Analytics**
 
 **Project Overview**
-
-
 This project explores how data can be used to understand sales performance, customer behavior, and product impact within an e-commerce environment.
 
 I approached this as an end-to-end analytics workflow—starting with SQL-based data exploration, moving through data cleaning and transformation, and finally building an interactive dashboard to communicate insights clearly.
@@ -12,7 +10,6 @@ The goal was not just to analyze the data, but to uncover patterns that could re
 
 
 **Tools & Technologies**
-
 MySQL – Initial querying and relational analysis
 SQLite – Data cleaning and transformation
 Microsoft Power BI – Data modeling, DAX, and visualization
@@ -21,7 +18,6 @@ SQL – Joins, aggregations, and analytical queries
 
 
 **About the Dataset**
-
 The dataset represents a typical e-commerce business and includes:
 
 Customers and their signup details
@@ -35,7 +31,6 @@ It reflects realistic behavior such as repeat purchases, varying customer value,
 
 
 **How the Analysis Was Done**
-
 1. Data Exploration (MySQL)
 I started by working through the relationships between tables—joining customers, orders, and products to understand how transactions flow through the system.
 
@@ -46,8 +41,8 @@ Handling missing values (e.g., unknown countries)
 Standardizing fields
 Filtering out invalid transactions
 Creating clean datasets for reporting
-3. Dashboard Development (Power BI)
 
+3. Dashboard Development (Power BI)
 Finally, I built a Power BI dashboard where:
 
 A star schema model was created
@@ -58,7 +53,6 @@ Insights were visualized in a clear and interactive way
 
 
 **Dashboard Overview**
-
 🔹 Sales Performance Overview
 Total Revenue
 Total Orders
@@ -75,14 +69,12 @@ Customer Retention (Repeat vs One-time)
 **Dashboard Preview**
 
 **Full Dashboard Report**
-
 You can view the full dashboard here:
 👉 reports/ecommerce_dashboard.pdf
 
 
 
 **Key Insights**
-
 The business shows a strong base of repeat customers, suggesting solid retention.
 At the same time, a segment of customers appears to be at risk, highlighting potential churn.
 Revenue is largely driven by a group of high-value customers, making them critical to overall performance.
@@ -101,7 +93,6 @@ ecommerce-sales-analytics/
 
 
 **Why This Project Matters**
-
 This project demonstrates how data can move beyond numbers and into decisions.
 
 It shows how to:
